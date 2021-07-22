@@ -1,0 +1,5 @@
+.divider-img {
+    object-fit: fill;
+    height: 2px !important;
+    width: 100%;
+}
