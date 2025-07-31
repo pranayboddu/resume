@@ -7,9 +7,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.app {
+    /* text-align: center; */
+    font-family: 'Montserrat', sans-serif;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.resume-document {
+  min-height: calc(100vh - 32px);
+  margin: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,0.175);
+  padding: 24px 28px;
+  box-sizing: border-box;
+  width: auto;
+  max-width: calc(100vw - 32px);
+  overflow-x: auto;
 }
 
 @media print {

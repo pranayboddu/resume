@@ -12,13 +12,18 @@ export interface IDetailSection {
     rawContent?: ReactElement
 }
 
-export default function DetailSection(props: { detail: IDetailSection, [key: string]: any }) {
+interface DetailSectionProps {
+    detail: IDetailSection,
+    [key: string]: any
+}
+
+export default function DetailSection(props: DetailSectionProps) {
     const { detail } = props || {};
 
     return (
         <Container fluid className="detail-section text-left pt-4 px-4">
             <Row>
-                <Col lg={2} className={"text-primary font-weight-bold mb-3"}>
+                <Col lg={2} className={"text-primary fw-bold mb-3"}>
                     {detail.title}
                 </Col>
                 <Col lg={10} className={""}>
@@ -36,11 +41,17 @@ export default function DetailSection(props: { detail: IDetailSection, [key: str
         </Container>)
 }
 
-export function DetailContent(props: { headerText: string, [key: string]: any }) {
+interface DetailContentProps {
+    headerText: string,
+    children: ReactElement
+}
+export function DetailContent(props: DetailContentProps) {
     const { headerText, children } = props || {};
-    return (<Container fluid className={"mb-4"}>
-        <span className={"font-weight-bold"}>{headerText}</span>
-        <br />
-        {children}
-    </Container>);
+    return (
+        <Container fluid className={"mb-4"}>
+            <span className={"fw-bold"}>{headerText}</span>
+            <br />
+            {children}
+        </Container>
+    );
 }

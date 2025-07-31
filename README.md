@@ -1,4 +1,4 @@
-# A Resume template under construction
+# A Resume template
 
 You can find Author's Resume : [Here](https://pranayboddu.github.io/resume)
 
