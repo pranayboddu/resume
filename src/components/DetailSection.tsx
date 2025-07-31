@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react';
-import { Container, Col, Row, Figure } from "react-bootstrap"
-import "../css/DetailSection.css";
+import { Container, Col, Row, Figure } from "react-bootstrap";
 import DividerPNG from "../assets/divider.png";
+import "../css/DetailSection.css";
 
 export interface IDetailSection {
     title: string,

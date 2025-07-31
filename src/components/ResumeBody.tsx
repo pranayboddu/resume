@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button, Card, Badge } from "react-bootstrap"
+import { Container, Row, Col, Button } from "react-bootstrap"
 import { FaGolang, FaReact, FaNodeJs, FaDocker, FaPhp, FaJs, FaHtml5, FaCss3Alt, FaCode, FaGitAlt, FaChrome, FaBitbucket } from 'react-icons/fa6';
 import { SiTypescript, SiRedux, SiMongodb, SiJquery, SiGraphql, SiDotnet, SiMysql, SiApachecordova, SiSocketdotio, SiLivechat, SiRecoil, SiJira } from 'react-icons/si';
 import DetailSection, { IDetailSection } from './DetailSection';
@@ -19,26 +19,28 @@ const Career: IDetailSection = {
                     <li>
                         <p className={fontStyleClass}>Ingram Micro (X4C) | Front-End Engineer</p>
                         <p>
-                            Is a Micro-FrontEnd Application with Typescript & Recoil integrated to C# .Net Core with WebAPI as backend.
+                            Is a Micro-FrontEnd ReactJS Application with Typescript & Recoil integrated to C# .Net Core with WebAPI as backend.
+                            <br />
                             Ingram micro (Xvantage for Customers - X4C) is a B2B eCommerce platform that provides a comprehensive suite of tools and services to help businesses manage their online sales and operations efficiently.
                         </p>
                     </li>
                     <li>
-                        <p className={fontStyleClass}>Freedom Central | Front-End Engineer</p>
+                        <p className={fontStyleClass}>Freedom Square | Lead Engineer</p>
                         <p>
-                            React.JS Application with Typescript & Redux integrated to GoLang and NodeJS with WebAPI as backend, Integrated High Availablity MongoDB(Replica Set Configured with X.509 certification), Added support for Docker and Kubernetes deployment.
+                            Freedom Square is a digital commonwwealth for Freedom-loving Americans to access News & Information, Podcasts, a Business Network, and a Resource Center rich in American history and key resources for sustaining our liberty.
                         </p>
                     </li>
                     <li>
                         <p className={fontStyleClass}>Right to Bear Insurance | Lead Engineer</p>
                         <p>
-                            Right to Bear Insurance is a comprehensive insurance platform that offers a wide range of self-liability insurance for the Response Gun Owners. Right to bear promote freedom and legal usage of firearms while ensuring responsible ownership and protection against potential liabilities. (React.JS Application with Typescript & Redux)
+                            Right to Bear Insurance is a comprehensive insurance platform that offers a wide range of self-liability insurance for the Response Gun Owners. Right to bear promote freedom and legal usage of firearms while ensuring responsible ownership and protection against potential liabilities.
                         </p>
                     </li>
                     <li>
                         <p className={fontStyleClass}>Bravvox | Lead Engineer</p>
                         <p>
-                            React.JS Application with Typescript & Redux. Bravvox is an online social media & social networking platform that allows users to connect with friends, family, and colleagues, share content, and engage in discussions. It provides a range of features such as user profiles, news feeds, messaging, and groups to facilitate communication and interaction among users.
+                            Bravvox is an online social media & social networking platform that allows users to connect with friends, family, and colleagues, share content, and engage in discussions. It provides a range of features such as user profiles, news feeds, messaging, and groups to facilitate communication and interaction among users.
+                            <b> Stack:</b> ReactJS, Typescript & Redux, Redux-Thunk, WebSockets, Cursor based pagination.
                         </p>
                     </li>
                 </ul>
@@ -49,21 +51,23 @@ const Career: IDetailSection = {
             details: (
                 <ul>
                     <li>
-                        <p className={fontStyleClass}>OnCall Mobile Server</p>
-                        <p>
-                            React.JS Application with Typescript & Redux integrated to DotNetCore 3.1 with WebAPI as backend, Integrated High Availablity MongoDB(Replica Set Configured with X.509 certification), RabbitMQ(Messaging Queue Integration), and Added support for Docker and Kubernetes deployment.
-                        </p>
-                    </li>
-                    <li>
                         <p className={fontStyleClass}>OnCall Mobile</p>
                         <p>
-                            React Native, with Redux and RealmJS. Added the following features support to the product - Firebase Messaging/RabbitMQ Messaging(MQTT), Background location tracking, Map Integration, RocketChat Messaging Integration, and many more.
+                            Added the following features support to the product - Firebase Messaging/RabbitMQ Messaging(MQTT), Background location tracking, Map Integration, RocketChat Messaging Integration, and many more.
+                            <b> Stack:</b> ReactNative, Typescript with Redux and RealmJS.
                         </p>
                     </li>
                     <li>
                         <p className={fontStyleClass}>Mobile Responder</p>
+                        <p >
+                            Intergraph Mobile Responder from Hexagon Safety & Infrastructure provides constant access to I/CAD (Intergraph Computer-Aided Dispatch), enabling field personnel to create events, view incident details, receive and acknowledge messages, update statuses, query databases, and more. Available as a native application for iOS, Android devices, Intergraph Mobile Responder performs better than browser-based solutions and incorporates native device capabilities, such as push notifications, Global Positioning System (GPS), and the camera operations.
+                            <b> Stack:</b> ReactJS, Typescript, Redux & Cordova.
+                        </p>
+                    </li>
+                    <li>
+                        <p className={fontStyleClass}>OnCall Mobile Server</p>
                         <p>
-                            React.JS Application with Typescript, Redux & Cordova. Intergraph Mobile Responder from Hexagon Safety & Infrastructure provides constant access to I/CAD (Intergraph Computer-Aided Dispatch), enabling field personnel to create events, view incident details, receive and acknowledge messages, update statuses, query databases, and more. Available as a native application for iOS, Android devices, Intergraph Mobile Responder performs better than browser-based solutions and incorporates native device capabilities, such as push notifications, Global Positioning System (GPS), and the camera operations.
+                            ReactJS, Typescript & Redux integrated to DotNetCore 3.1 with WebAPI as backend, Integrated High Availablity MongoDB(Replica Set Configured with X.509 certification), RabbitMQ(Messaging Queue Integration), and Added support for Docker and Kubernetes deployment.
                         </p>
                     </li>
                 </ul>

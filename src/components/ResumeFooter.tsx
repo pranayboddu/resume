@@ -7,5 +7,6 @@ export default function ResumeFooter() {
                 Thanks for your time.
                 {/* Thanks for you time. Hope you got my latest Resume.<br/> If not, you can find at <a href={"https://stealth-grid.github.io/resume"}>https://stealth-grid.github.io/resume</a>. */}
             </Col>
-        </Container>)
+        </Container>
+    )
 }
