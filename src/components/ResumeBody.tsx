@@ -27,7 +27,7 @@ const Career: IDetailSection = {
                     <li>
                         <p className={fontStyleClass}>Freedom Square | Lead Engineer</p>
                         <p>
-                            Freedom Square is a digital commonwwealth for Freedom-loving Americans to access News & Information, Podcasts, a Business Network, and a Resource Center rich in American history and key resources for sustaining our liberty.
+                            Freedom Square is a digital commonwealth for Freedom-loving Americans to access News & Information, Podcasts, a Business Network, and a Resource Center rich in American history and key resources for sustaining our liberty.
                         </p>
                     </li>
                     <li>
