@@ -1,9 +1,8 @@
-import { Container, Row, Col, Button } from "react-bootstrap"
+import { Button, Container, Col, Row, Stack } from "react-bootstrap"
 import { FaGolang, FaReact, FaNodeJs, FaDocker, FaPhp, FaJs, FaHtml5, FaCss3Alt, FaCode, FaGitAlt, FaChrome, FaBitbucket } from 'react-icons/fa6';
 import { SiTypescript, SiRedux, SiMongodb, SiJquery, SiGraphql, SiDotnet, SiMysql, SiApachecordova, SiSocketdotio, SiLivechat, SiRecoil, SiJira } from 'react-icons/si';
 import DetailSection, { IDetailSection } from './DetailSection';
 
-// const productTextClass = "fw-medium text-muted";
 const fontStyleClass = "fw-bold font-monospace m-0";
 
 /**
@@ -167,7 +166,7 @@ const SkillsList: ISkill[] = [
     { name: 'Redux', icon: <SiRedux /> },
     { name: 'Recoil', icon: <SiRecoil /> },
     { name: 'HTML & CSS', icon: <><FaHtml5 /> <FaCss3Alt /></> },
-    { name: 'C# ASP.NET', icon: <SiDotnet /> },
+    { name: 'C# .NET', icon: <SiDotnet /> },
     { name: 'SignalR', icon: <SiLivechat /> },
     { name: 'WebSockets', icon: <SiSocketdotio /> },
     { name: 'MongoDB', icon: <SiMongodb /> },
@@ -231,7 +230,7 @@ const AdditiveSkills: IDetailSection = {
 }
 
 const ToolsSection = () => (
-    <Container fluid className="detail-section text-left pt-4 px-4">
+    <Container className="detail-section text-left pt-4 px-4">
         <Row>
             <Col lg={2} />
             <Col lg={10} className={""}>
@@ -251,10 +250,10 @@ const ToolsSection = () => (
 
 export default function ResumeBody() {
     return (
-        <Container fluid className="lh-lg px-0">
-            <Container fluid className="my-2 bg-light rounded shadow-sm p-3 mx-3 w-auto quote-text">
+        <Container className="lh-lg px-0">
+            <Stack className="p-3 mx-3">
                 Passionate about continuous learning and applying knowledge to build impactful solutions. Driven to simplify complexity and pave the way for innovation that benefits both individuals and teams.
-            </Container>
+            </Stack>
             <DetailSection detail={Career} />
             <DetailSection detail={Skills} />
             <DetailSection detail={AdditiveSkills} />

@@ -2,14 +2,19 @@ import { Container } from "react-bootstrap"
 import ResumeHeader from './components/ResumeHeader';
 import ResumeBody from './components/ResumeBody';
 import ResumeFooter from './components/ResumeFooter';
+import { ThemeProvider } from "./contexts/ThemeContext";
 
 function App() {
   return (
-    <Container fluid className="app resume-document">
-      <ResumeHeader />
-      <ResumeBody />
-      <ResumeFooter />
-    </Container>
+    <ThemeProvider>
+      <Container fluid className="app">
+        <ResumeHeader />
+        <div style={{ height: '100%', paddingTop: '10rem' }}>
+          <ResumeBody />
+          <ResumeFooter />
+        </div>
+      </Container>
+    </ThemeProvider>
   )
 }
 

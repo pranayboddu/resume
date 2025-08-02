@@ -7,9 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  text-decoration: none;
+}
+
 .app {
     /* text-align: center; */
     font-family: 'Montserrat', sans-serif;
+    padding: 0 !important
 }
 
 code {
@@ -17,7 +22,17 @@ code {
     monospace;
 }
 
-.resume-document {
+.dark {
+  background-color: #181a1b;
+  color: #e4e6eb;
+}
+
+.dark .app {
+  background-color: #181a1b;
+  color: #e4e6eb;
+}
+
+/* .resume-document {
   min-height: calc(100vh - 32px);
   margin: 24px;
   background: #fff;
@@ -27,8 +42,10 @@ code {
   box-sizing: border-box;
   width: auto;
   max-width: calc(100vw - 32px);
-  overflow-x: auto;
-}
+  overflow-x: auto; */
+/* } */
+
+
 
 @media print {
   .app {

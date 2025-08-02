@@ -21,7 +21,7 @@ export default function DetailSection(props: DetailSectionProps) {
     const { detail } = props || {};
 
     return (
-        <Container fluid className="detail-section text-left pt-4 px-4">
+        <Container className="detail-section text-left pt-4 px-4">
             <Row>
                 <Col lg={2} className={"text-primary fw-bold mb-3"}>
                     {detail.title}
@@ -48,7 +48,7 @@ interface DetailContentProps {
 export function DetailContent(props: DetailContentProps) {
     const { headerText, children } = props || {};
     return (
-        <Container fluid className={"mb-4"}>
+        <Container className={"mb-4"}>
             <span className={"fw-bold"}>{headerText}</span>
             <br />
             {children}
